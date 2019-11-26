@@ -206,12 +206,13 @@ header nav a {
 }
 .container {
   margin: 0 30px;
+  height: 100%;
 }
 .container .exec-summary {
   display: flex;
   flex-direction: column;
   float: left;
-  width: 49%;
+  width: 30%;
   background-color: rgba(61, 183, 204, 0.432);
   padding: 1%;
 }
@@ -224,6 +225,15 @@ header nav a {
   margin-bottom: 10px;
   color: white;
   text-shadow: 1px 2px black;
+}
+.container .exec-summary .main-content h3 {
+  font-size: 1.2rem;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 10px;
+}
+.container .exec-summary .main-content h4,
+.container .exec-summary .main-content h5 {
+  font-style: italic;
 }
 .container .exec-summary .main-content p {
   font-family: 'Cabin', sans-serif;
@@ -241,11 +251,17 @@ header nav a {
 .container .exec-summary .main-content .contact p {
   padding-bottom: 10px;
 }
+.container .exec-summary .main-content .main-content-ul {
+  padding-bottom: 34.5px;
+}
+.container .exec-summary .main-content #minor-h4 {
+  padding-bottom: 10px;
+}
 .container .car-summary {
   display: flex;
   flex-direction: column;
   float: right;
-  width: 49%;
+  width: 69%;
   padding: 1%;
   background-color: #ffdebd;
 }
