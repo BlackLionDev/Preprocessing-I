@@ -3,10 +3,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+
+  <script src="javascript/index.js"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +18,115 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+
+<header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+
+<div class = "main-container">
+<section class = "intro">
+  <div class = "blah">
+    <div class = "me-img">
+      <img src = "img/me.png" alt = "Picture of me">
+    </div>
+    <div class = "about-me">
+        <h1>Aaron Wilson</h1>
+            <h2 class="typewrite" data-period="2000" data-type='[ "Operations Team Lead", "Full-Stack Web Developer", "Aspiring Writer", "Lifetime Student" ]'>
+            <span class="wrap"></span>
+            </h2>
+    </div>
+  </div>
+    <p>My character informs my passion which inspires my vision. Technology is the vehicle by which my ideas will become reality!</p>
+</section>
+
+<div class = "container">
+
+  <section class = "exec-summary">
+    <div class = "main-content">
+      <h2>Executive Summary</h2>
+      <p>As a Philosophy student in college, I found that, more often than not, profundity exists within the simplest concepts. Outside of the fancy academic jargon and verbose articles, the truth was almost always the simplest explanation. 
+
+      <br><br>We as humans constantly find ourselves grappling with complex problems in an ever-changing world, but through the power of technology we are able to simplify these problems for the average consumer, thereby making what was once inaccessible accessible while also shifting our paradigms and how we see the world in real-time. 
+          
+      <br><br>It is this concept, this universality of access to information, that interests me the most. I am passionate about technology because I have a strong desire to identify simple solutions to complex, real-world problems.
+      </p>
+    </div>
+
+    <div class = "main-content">
+      <h2>Previous Education</h2>
+      <h3>Pepperdine University - Seaver College</h3>
+      <h4>Bachelor of Arts in Philosophy, 2013</h4>
+      <h4 id = "minor-h4">Minor in Professional Writing & Rhetoric</h4>
+      <ul class = "main-content-ul">
+        <li class ="alt-li">President, Inter-Fraternity Council</li>
+        <li>Perspectives Editor, Graphic Newspaper</li>
+        <li class ="alt-li">Service Chair, Psi Upsilon Fraternity</li>
+        <li>VP Programming, Psi Upsilon Fraternity</li>
+        <li class ="alt-li">Recruitment Chair, Student Alumni Organization</li>
+      </ul>
+      <h3>HBX - Harvard Business School</h3>
+      <h4>Leadership & Strategy</h4>  
+    </div>
+
+    <div class = "main-content">
+      <h2>Areas of Expertise</h2>
+      <ul>
+      <li class ="alt-li">Microsoft Office Suite (sp. Word, PowerPoint, Excel)</li>
+      <li>G Suite (sp. Docs, Sheets, Slides) - SQL (Intermediate)</li> 
+      <li class ="alt-li">Stakeholder Management/Issue Triaging</li>
+      <li>Copywriting</li>
+      <li class ="alt-li">Brand Management</li>
+      <li>Data collection and analysis</li>
+    </ul> 
+    </div>
+
+  </section>
+
+  <section class = "car-summary">
+    <h2>Career Summary</h2>
+    <h3>Operations Team Lead</h3>
+    <h4>Uber Technologies, Inc.</h4>
+    <h5>August 2019 - Present</h5>
+    <ol>
+      <li class = "li-alt">Lead, motivate, and develop high performing teams of Customer Support Representatives within a time-sensitive enviroment to deliver on operational key performance indicators</li>
+      <li>Audit my team's performance with weekly audits and guide towards progressive improvements; identify opportunities for additional training & development</li>
+      <li class = "li-alt">Guide enforcement of policies, including attendance; create and distribute reports to COE management, provide Senior Leadership with daily snapshots of team's performance; escalate issues to Senior Leadership as necessary</li>
+      <li>Act as a Subject Matter Expert. Identify trending issues and guide CSRs to do the same in their daily work</li>
+    </ol>
+
+    <h3>Outreach Innovation Specialist</h3>
+    <h4>Uber Technologies, Inc.</h4>
+    <h5>December 2016 - August 2019</h5>
+    <ol>
+      <li>Manage driver accounts to assist with the driver on-boarding process while providing world class concierge service</li>
+      <li class = "li-alt">Created and implemented a Greenlight Hub appointment tracker to help specialists address scheduling conflicts so as to improve the driver on-boarding experience</li>
+      <li>Created and implemented attack strategy for small market cities as a member of the Uber Eats team to address negative trend; increased conversion by 150% week- over-week in just four weeks as the sole specialist</li>
+      <li class = "li-alt">Update and maintain various metric trackers using SQL databasing paired with Google Sheets to aid with performance management</li>
+      <li>Active member of various ERGs including creating and leading the SQL mentor team</li>
+    </ol>
+    <h3>Legal Coordinator</h3>
+    <h4>SM Properties, Inc.</h4>
+    <h5>February 2014 - December 2016</h5>
+    <ol>
+      <li class = "li-alt">Processed lease contracts, security deposit refunds, and various legal documents in accordance with California housing law, including small claims and unlawful detainers</li>
+      <li>Resolved tenant/landlord disputes and represented company in small claims trials</li>
+    </ol>
+  </section>
+</div>
+</div>
+
+<section class = "contact-me">
+  <contact>
+    
+  </contact>
+</section>
+  
+
 </body>
 </html>
